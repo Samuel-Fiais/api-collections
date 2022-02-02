@@ -10,9 +10,7 @@ fun main() {
     salarios.forEach { println(it) }
     println("----------------------")
 
-    salarios.forEachIndexed { index, salario ->
-        salarios[index] = salario * 1.5
-    }
+    salarios.forEachIndexed { index, salario -> salarios[index] = salario * 1.5 }
     salarios.forEach { println(it) }
     println("----------------------")
 
